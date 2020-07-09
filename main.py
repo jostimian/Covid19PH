@@ -44,6 +44,7 @@ while loop == True:
         /cases = view all confirmed cases
         /quit = quit the aplication
         """)
+        print(Back.MAGENTA + "We I mean I am planing to change database to make the numbers more accurate")
     if user_input == "/deaths":
         print(Style.BRIGHT + Back.RED + "Deaths", deaths_list)
     if user_input == "/recover":
