@@ -3,7 +3,6 @@ from colorama import Fore, Back, Style
 from colorama import init
 from selenium.webdriver.chrome.options import Options
 init(autoreset=True)
-from time import sleep
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(options=chrome_options)
@@ -26,9 +25,7 @@ while loop == True:
         return deaths_list 
     def seeall():
         latest()
-        sleep(0.2)
         recovered()
-        sleep(0.3)
         deaths()
         print(Style.BRIGHT + Back.GREEN + "Recovered", recovered_list)
         print(Style.BRIGHT + Back.YELLOW + "Cases", latest_list)
