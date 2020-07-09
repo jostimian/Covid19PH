@@ -13,33 +13,29 @@ loop = True
 print(Style.BRIGHT + Fore.GREEN + "CSP ERROR MIGHT APPEAR JUST IGNORORE")
 while loop == True:
     def latest():
-
         latest_xpath = driver.find_element_by_xpath('//*[@id="yDmH0d"]/c-wiz/div/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/div/div/div[1]/div[2]')
         latest_list = latest_xpath.text
         return latest_list 
     def recovered():
-
         recovered_xpath = driver.find_element_by_xpath('//*[@id="yDmH0d"]/c-wiz/div/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/div/div/div[2]/div[2]')
         recovered_list =  recovered_xpath.text
         return recovered_list
     def deaths():
-
         deaths_xpath = driver.find_element_by_xpath('//*[@id="yDmH0d"]/c-wiz/div/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/div/div/div[3]/div[2]')
         deaths_list =  deaths_xpath.text
         return deaths_list 
     def seeall():
         latest()
-        latest_list = latest()
         sleep(0.2)
         recovered()
-        recovered_list = recovered()
         sleep(0.3)
         deaths()
-        deaths_list = deaths()
         print(Style.BRIGHT + Back.GREEN + "Recovered", recovered_list)
         print(Style.BRIGHT + Back.YELLOW + "Cases", latest_list)
         print(Style.BRIGHT + Back.RED + "Deaths", deaths_list)
-
+    latest_list = latest()
+    recovered_list = recovered()
+    deaths_list = deaths()
     for i in range (2):
         print("\n")
     user_input = input("use /help to see all of the commands: ")
@@ -50,16 +46,12 @@ while loop == True:
         /recover = view all confirmed recoveries
         /cases = view all confirmed cases
         /quit = quit the aplication
-        Save To Excel Is Still In Development
         """)
     if user_input == "/deaths":
-        deaths_list = deaths()
         print(Style.BRIGHT + Back.RED + "Deaths", deaths_list)
     if user_input == "/recover":
-        recovered_list = recovered()
         print(Style.BRIGHT + Back.GREEN + "Recovered", recovered_list)
     if user_input == "/cases":
-        latest_list = latest()
         print(Style.BRIGHT + Back.YELLOW + "Cases", latest_list)
     if user_input == "/all":
         seeall()
