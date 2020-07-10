@@ -31,5 +31,4 @@ if you fond some issue please file an issue and i will try to fix it as soon as 
 the beta version is still full of bugs and extremely slow.
 
 ## what is changed? 
-We added Active Cases
-We also use a more up to date database
+We added Active Cases. We also use a more up to date database
