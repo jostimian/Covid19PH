@@ -27,3 +27,9 @@ to see all exsiting command type
 # Others
 if you fond some issue please file an issue and i will try to fix it as soon as posible 
 
+# Beta Version
+the beta version is still full of bugs and extremely slow.
+
+## what is changed? 
+We added Active Cases
+We also use a more up to date database
