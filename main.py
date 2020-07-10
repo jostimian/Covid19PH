@@ -1,4 +1,3 @@
-
 from selenium import webdriver
 from colorama import Fore, Back, Style
 from colorama import init
