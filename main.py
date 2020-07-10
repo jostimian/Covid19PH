@@ -9,7 +9,7 @@ driver = webdriver.Chrome(options=chrome_options)
 start_url = "https://news.google.com/covid19/map?hl=en-PH&mid=/m/05v8c&gl=PH&ceid=PH:en"
 driver.get(start_url)
 loop = True
-print(Style.BRIGHT + Fore.GREEN + "CSP ERROR MIGHT APPEAR JUST IGNORORE")
+print(Style.BRIGHT + Fore.GREEN + "Content Security Policy(CSP) ERROR MIGHT APPEAR JUST IGNORORE")
 while loop == True:
     def latest():
         latest_xpath = driver.find_element_by_xpath('//*[@id="yDmH0d"]/c-wiz/div/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/div/div/div[1]/div[2]')
@@ -33,7 +33,7 @@ while loop == True:
     latest_list = latest()
     recovered_list = recovered()
     deaths_list = deaths()
-    for i in range (2):
+    for new_line in range (2):
         print("\n")
     user_input = input("use /help to see all of the commands: ")
     if user_input == "/help":
