@@ -25,5 +25,8 @@ to see all exsiting command type
 ```bash
 /help
 ``` 
+# Global Beta
+This Beta Version is still a **pool of bug** and needs to be cleaned
+
 # Others
 if you fond some issue please file an issue and i will try to fix it as soon as posible 
