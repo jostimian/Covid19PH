@@ -5,7 +5,7 @@ new database
 faster loadtime
 **old version is still available**
 # Installation
-1. Download this repository and install the required libraries **You need[ Chrome](https://www.google.com/intl/en_ph/chrome/) to properly run this code**
+1. Download this repository and install the required libraries **You need[ Chrome](https://github.com/jostimian/COVID19-Global-) to properly run this code**
 
 ```bash
 pip install selenium
@@ -26,7 +26,7 @@ to see all exsiting command type
 /help
 ``` 
 # Global
-It has been moved to this [Repo](https://github.com/jostimian/COVID19-Global)
+It has been moved to this [Repo](https://github.com/jostimian/COVID19-Global-)
 
 # Others
 if you fond some issue please file an issue and i will try to fix it as soon as posible 
