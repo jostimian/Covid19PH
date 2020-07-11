@@ -1,5 +1,5 @@
 # Covid19PH
-This is a Covid19 tracker exclusively for Philipines **[Global](https://github.com/jostimian/Covid19-project-)** is also available
+This is a Covid19 tracker exclusively for Philipines **[Global](https://github.com/jostimian/COVID19-Global)** is also available
 # Whats new?
 new database
 faster loadtime
@@ -25,8 +25,8 @@ to see all exsiting command type
 ```bash
 /help
 ``` 
-# Global Beta
-This Beta Version is still a **pool of bug** and needs to be cleaned
+# Global
+It has been moved to this [Repo](https://github.com/jostimian/COVID19-Global)
 
 # Others
 if you fond some issue please file an issue and i will try to fix it as soon as posible 
